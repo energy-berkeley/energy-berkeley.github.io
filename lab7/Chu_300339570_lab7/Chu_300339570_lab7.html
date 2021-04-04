@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/copy.css" rel="stylesheet">
+    <script src="js/script.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Lab 7:JS Arithmetics</h1>
+    </header>
+
+    <section>
+        <form name="SumMachine" action='' method='GET'>
+            <fieldset>
+                <legend>My Calculator</legend>
+                <input type="text" id="result" name="result"><br>
+            </fieldset>
+
+            </fieldset>
+            <fieldset>
+                <legend>Input</legend>
+                <p>Operands: </p>
+                <textarea name="input1" id="inp1" rows="3" cols="5" ></textarea>
+                <textarea name="input2" id="inp2" rows="3" cols="5" ></textarea>
+                <p>Operator: </p>
+                <input type="button" name="submit" value="+" onclick="AddValue()">  
+                <input type="button" name="submit" value="&times;" onclick="TimesValue()">  
+                <input type="button" name="submit" value=":" onclick="DivideValue()">
+                <input type="button" name="submit" value="clear" onclick="ClearValue()"> 
+            </fieldset>               
+        </form>
+    </section>
+
+    <footer>Copy right to myself</footer>
+
+</body>
+</html>
