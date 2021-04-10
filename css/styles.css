@@ -136,7 +136,7 @@ footer {
 }
 footer .name {
   text-align: left;
-  flex: 1 1 200px;
+  flex: 1 1 100%;
 }
 
 footer .copyright {
